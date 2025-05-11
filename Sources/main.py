@@ -8,13 +8,10 @@ from pygame.constants import KEYDOWN
 import bfs
 import astar
 
-''' TIME OUT FOR ALL ALGORITHM : 30 MIN ~ 1800 SECONDS '''
 TIME_OUT = 1800
-''' GET THE TESTCASES AND CHECKPOINTS PATH FOLDERS '''
 path_board = os.getcwd() + '\\..\\Testcases'
 path_checkpoint = os.getcwd() + '\\..\\Checkpoints'
 
-''' TRAVERSE TESTCASE FILES AND RETURN A SET OF BOARD '''
 import os
 
 def get_boards():
@@ -33,9 +30,6 @@ def get_boards():
     return list_boards
 
 
-''' TRAVERSE CHECKPOINT FILES AND RETURN A SET OF CHECKPOINT '''
-
-
 def get_check_points():
 	os.chdir(path_checkpoint)
 
@@ -50,7 +44,6 @@ def get_check_points():
 
 	return list_check_point
 
-''' FORMAT THE INPUT TESTCASE TXT FILE '''
 def format_row(row):
 	for i in range(len(row)):
 		if row[i] == '1':
@@ -62,21 +55,18 @@ def format_row(row):
 		elif row[i] == 'c':
 			row[i] = '%'
 
-''' FORMAT THE INPUT CHECKPOINT TXT FILE '''
 def format_check_points(check_points):
 	result = []
 	for check_point in check_points:
 		result.append([check_point[0], check_point[1]])
 	return result
 
-''' READ A SINGLE TESTCASE TXT FILE '''
 def get_board(path):
 	result = np.loadtxt(f"{path}", dtype=str, delimiter=',')
 	for row in result:
 		format_row(row)
 	return result
 
-''' READ A SINGLE CHECKPOINT TXT FILE '''
 def get_pair(path):
 	result = np.loadtxt(f"{path}", dtype=int, delimiter=',')
 	return result
@@ -250,7 +240,7 @@ def sokoban():
 		if sceneState == "executing":
 			# Choose map
 			list_check_point = check_points[mapNumber]
-
+			print("Lv " + str(mapNumber + 1) + ":")
 			# Choose between BFS or Hill Climbing
 			if algorithm == "Best First Search":
 				print("BFS")
@@ -279,7 +269,8 @@ def sokoban():
 			currentState = currentState + 1
 			if currentState == stateLenght:
 				sceneState = "end"
-				print(list_board[1])
+				print("Step solve = " + str(stateLenght))
+				print("States Explored = " + str(list_board[1]))
 				found = True
 		# Check event when you press key board
 		for event in pygame.event.get():
@@ -314,4 +305,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-

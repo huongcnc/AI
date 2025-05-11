@@ -1,0 +1,212 @@
+Map 1
+Checkpoints: [[3 5]
+ [4 2]
+ [5 4]]
+Found win
+1.5964999198913574
+Solution found (70 steps, 998 states explored).
+Execution time: 1.596 seconds
+
+Map 2
+Checkpoints: [[1 1]
+ [1 2]
+ [1 3]
+ [1 4]
+ [2 1]]
+Found win
+1.062135934829712
+Solution found (34 steps, 989 states explored).
+Execution time: 1.063 seconds
+
+Map 3
+Checkpoints: [[1 1]
+ [2 1]
+ [3 1]]
+Found win
+2.6716935634613037
+Solution found (51 steps, 1534 states explored).
+Execution time: 2.673 seconds
+
+Map 4
+Checkpoints: [[3 7]
+ [4 7]
+ [5 7]]
+Found win
+174.9068112373352
+Solution found (89 steps, 8811 states explored).
+Execution time: 174.920 seconds
+
+Map 5
+Checkpoints: [[4 5]
+ [5 4]
+ [6 3]
+ [6 4]]
+Found win
+160.51177406311035
+Solution found (57 steps, 10581 states explored).
+Execution time: 160.521 seconds
+
+Map 6
+Checkpoints: [[6 4]
+ [6 5]
+ [6 6]]
+Found win
+151.09771299362183
+Solution found (71 steps, 9237 states explored).
+Execution time: 151.107 seconds
+
+Map 7
+Checkpoints: [[1 4]
+ [2 4]
+ [3 4]
+ [4 4]]
+Found win
+3.288085699081421
+Solution found (27 steps, 1589 states explored).
+Execution time: 3.289 seconds
+
+Map 8
+Checkpoints: [[2 4]
+ [3 2]
+ [3 3]]
+Found win
+200.01374316215515
+Solution found (100 steps, 10182 states explored).
+Execution time: 200.025 seconds
+
+Map 9
+Checkpoints: [[2 2]
+ [4 1]
+ [4 3]]
+Found win
+41.339770555496216
+Solution found (95 steps, 4840 states explored).
+Execution time: 41.343 seconds
+
+Map 10
+Checkpoints: [[2 4]
+ [3 3]
+ [3 5]
+ [4 4]]
+Found win
+90.69066619873047
+Solution found (30 steps, 7618 states explored).
+Execution time: 90.703 seconds
+
+Map 11
+Checkpoints: [[3 3]
+ [5 3]
+ [5 4]]
+Found win
+8.683746337890625
+Solution found (102 steps, 2303 states explored).
+Execution time: 8.685 seconds
+
+Map 12
+Checkpoints: [[2 2]
+ [2 4]]
+Found win
+10.036811828613281
+Solution found (75 steps, 2393 states explored).
+Execution time: 10.038 seconds
+
+Map 13
+Checkpoints: [[2 2]
+ [2 4]
+ [2 6]]
+Found win
+225.94129419326782
+Solution found (113 steps, 11172 states explored).
+Execution time: 225.961 seconds
+
+Map 14
+Checkpoints: [[4 1]
+ [4 3]]
+Found win
+58.88423991203308
+Solution found (81 steps, 4977 states explored).
+Execution time: 58.887 seconds
+
+Map 15
+Checkpoints: [[3 3]
+ [4 4]]
+Found win
+8.152553081512451
+Solution found (83 steps, 2015 states explored).
+Execution time: 8.154 seconds
+
+Map 16
+Checkpoints: [[3 3]
+ [4 4]
+ [6 1]]
+Found win
+45.32141590118408
+Solution found (115 steps, 4936 states explored).
+Execution time: 45.328 seconds
+
+Map 17
+Checkpoints: [[6 2]
+ [6 4]]
+Found win
+14.122177600860596
+Solution found (73 steps, 2691 states explored).
+Execution time: 14.125 seconds
+
+Map 18
+Checkpoints: [[6 2]
+ [6 3]
+ [6 4]]
+Found win
+177.94338488578796
+Solution found (113 steps, 9590 states explored).
+Execution time: 177.952 seconds
+
+Map 19
+Checkpoints: [[7 3]
+ [7 5]]
+Found win
+10.223241806030273
+Solution found (72 steps, 2467 states explored).
+Execution time: 10.224 seconds
+
+Map 20
+Checkpoints: [[2 2]
+ [7 3]
+ [7 5]]
+Found win
+52.502721548080444
+Solution found (100 steps, 5301 states explored).
+Execution time: 52.506 seconds
+
+Map 21
+Checkpoints: [[3 4]
+ [4 2]]
+Found win
+23.576189756393433
+Solution found (104 steps, 3517 states explored).
+Execution time: 23.578 seconds
+
+Map 22
+Checkpoints: [[3 4]
+ [4 2]
+ [5 5]]
+Found win
+523.6507210731506
+Solution found (190 steps, 15333 states explored).
+Execution time: 523.672 seconds
+
+Map 23
+Checkpoints: [[3 1]
+ [5 1]]
+Found win
+0.6307320594787598
+Solution found (75 steps, 543 states explored).
+Execution time: 0.632 seconds
+
+Map 24
+Checkpoints: [[3 2]
+ [5 2]]
+Found win
+0.8589434623718262
+Solution found (92 steps, 688 states explored).
+Execution time: 0.860 seconds
